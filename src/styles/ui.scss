@@ -1,0 +1,92 @@
+.reg-el-form-item-content {
+  .el-form-item__content {
+    margin-left: 130px !important;
+    position: relative;
+
+    .el-button+.el-button {
+      margin-left: 10px;
+      right: 64px;
+      position: absolute;
+    }
+  }
+}
+
+.reg-el-form-item-label {
+  .el-form-item__content {
+    .el-form-item__error {
+      margin-left: 30px !important;
+    }
+  }
+
+  .el-form-item__label {
+    width: 130px !important;
+    text-align: left;
+
+  }
+}
+
+.excel_dialog {
+  .el-dialog__body {
+    display: none;
+  }
+}
+
+.publich_el-form-item__content {
+  .el-form-item__content {
+    margin-left: 0px !important;
+  }
+}
+
+.left_menu {
+  .el-menu {
+    height: 100% !important;
+  }
+}
+
+.left_el-aside {
+  div {
+    height: 100% !important;
+  }
+}
+
+.uploadPic_card {
+  .el-card__body {
+    padding: 10px !important;
+  }
+
+  .el-card__header {
+    border: none;
+    padding: 0px 20px 0px 10px !important;
+  }
+
+}
+
+.check_el_checkbox .el-checkbox .el-checkbox__inner {
+  border-radius: 10px !important;
+  border-color: rgb(96, 98, 102);
+}
+
+.check_el_checkbox {
+
+  .el-checkbox__input.is-checked .el-checkbox__inner,
+  .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #fff;
+    border-color: rgb(96, 98, 102);
+    color: red !important;
+  }
+
+  .el-checkbox__inner:hover {
+    border-color: rgb(96, 98, 102);
+  }
+
+  .is-focus,.el-checkbox__inner {
+    border-color: rgb(96, 98, 102) !important;
+}
+.el-checkbox__inner::after {
+  border-color: rgb(96, 98, 102) !important;
+}
+
+  .el-checkbox__input.is-checked+.el-checkbox__label {
+    color: rgb(96, 98, 102);
+  }
+}
